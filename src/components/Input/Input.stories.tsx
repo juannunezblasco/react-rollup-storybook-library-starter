@@ -1,20 +1,22 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import React from "react";
-import Input from "./Input";
+import Input, { InputTextProps } from "./Input";
 
-export default {
+const exportDefault: Meta<typeof Input> = {
   title: "ReactComponentLibrary/Input",
   component: Input,
-} as ComponentMeta<typeof Input>;
+};
 
-const Template: ComponentStory<typeof Input> = (args) => <Input {...args} />;
+const Template: StoryFn<typeof Input> = (args) => <Input {...args} />;
 
-export const DefaultInput = Template.bind({});
+export const DefaultInput: StoryFn<InputTextProps> = Template.bind({});
 DefaultInput.args = {
   placeholder: "Text",
 };
 
-export const DisabledInput = Template.bind({});
+export const DisabledInput: StoryFn<InputTextProps> = Template.bind({});
 DisabledInput.args = {
   disabled: true,
 };
+
+export default exportDefault;

@@ -1,5 +1,5 @@
 {
-  "name": "@juannunezblasco/rollup-react-storybook-library-starter",
+  "name": "@juannunezblasco/react-rollup-storybook-library-starter",
   "version": "0.1.0",
   "description": "Template and quick-starter to create modern React libraries using Rollup.",
   "main": "dist/cjs/bundle.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juannunezblasco/rollup-react-storybook-library-starter.git"
+    "url": "git+https://github.com/juannunezblasco/react-rollup-storybook-library-starter.git"
   },
   "author": "juannunezblasco",
   "license": "MIT",
@@ -35,9 +35,9 @@
     "template"
   ],
   "bugs": {
-    "url": "https://github.com/juannunezblasco/rollup-react-storybook-library-starter/issues"
+    "url": "https://github.com/juannunezblasco/react-rollup-storybook-library-starter/issues"
   },
-  "homepage": "https://juannunezblasco.github.io/rollup-react-storybook-library-starter",
+  "homepage": "https://juannunezblasco.github.io/react-rollup-storybook-library-starter",
   "peerDependencies": {
     "antd": "^5.4.0",
     "react": ">=16.8.0",
