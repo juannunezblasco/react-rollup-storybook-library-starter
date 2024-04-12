@@ -8,9 +8,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/juannunezblasco"
-  },
   "scripts": {
     "build": "rimraf dist && rollup -c",
     "dev": "rollup -c -w",
